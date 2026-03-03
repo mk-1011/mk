@@ -1,0 +1,36 @@
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 70px;
+}
+
+.center {
+  text-align: center;
+  animation: fadeIn 1.5s ease forwards;
+  opacity: 0;
+}
+
+.title {
+  font-size: 80px;
+  font-weight: 200;
+  letter-spacing: 12px;
+}
+
+.subtitle {
+  margin-top: 10px;
+  font-weight: 300;
+  letter-spacing: 4px;
+}
+
+.tagline {
+  margin-top: 20px;
+  font-size: 14px;
+  color: var(--muted);
+  letter-spacing: 3px;
+}
+
+@keyframes fadeIn {
+  to { opacity: 1; }
+}

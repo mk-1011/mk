@@ -1,0 +1,28 @@
+.loader {
+  position: fixed;
+  inset: 0;
+  background: var(--bg);
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+}
+
+.morse {
+  font-size: 24px;
+  letter-spacing: 8px;
+  animation: pulse 1s infinite alternate;
+}
+
+.text {
+  margin-top: 20px;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+@keyframes pulse {
+  from { opacity: 0.4; }
+  to { opacity: 1; }
+}

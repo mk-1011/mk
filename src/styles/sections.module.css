@@ -1,0 +1,50 @@
+.section {
+  padding: 140px 10%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.skillGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.card {
+  border: 1px solid var(--border);
+  padding: 24px;
+  transition: 0.3s ease;
+  backdrop-filter: blur(6px);
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  border-color: var(--text);
+}
+
+.textarea {
+  width: 100%;
+  min-height: 120px;
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 12px;
+  margin-top: 20px;
+}
+
+.button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 1px solid var(--text);
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+}
+
+.footer {
+  border-top: 1px solid var(--border);
+  padding: 40px 10%;
+  display: flex;
+  justify-content: space-between;
+}

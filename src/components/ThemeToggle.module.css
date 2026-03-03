@@ -1,0 +1,14 @@
+.toggle {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.toggle:hover {
+  background: var(--text);
+  color: var(--bg);
+}

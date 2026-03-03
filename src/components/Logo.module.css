@@ -1,0 +1,18 @@
+.logo {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.main {
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 4px;
+}
+
+.morse {
+  font-size: 10px;
+  letter-spacing: 3px;
+  color: var(--muted);
+  margin-top: 2px;
+}
